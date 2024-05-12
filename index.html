@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8ecd8cd0cd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="image/logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about me">About</a></li>
+            <li><a href="#services">Certificate</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <span id="element"></span>
+          <h1>
+            Hey! I'm <span>Pranjal</span><br />
+            Singh From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!---------About--------->
+    <div id="about me">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <h1 class="sub-title">About Me</h1>
+            <br /><br />
+            <img src="image/main.jpg" />
+          </div>
+          <div class="about-col-2">
+            <br />
+            <br />
+            <br /><br /><br />
+            <h4>
+              I'm a final year B.Tech Computer Science student specializing in
+              web development and possessing a solid foundation in Java. My
+              academic journey has equipped me with a well-rounded understanding
+              of computer science. Proficient in crafting dynamic websites using
+              HTML, CSS, and JavaScript, I also wield Java for various projects.
+              I enjoy tackling coding challenges and have honed teamwork skills
+              through hackathons. As I approach graduation, I'm excited to apply
+              my expertise to innovative solutions and contribute effectively in
+              the ever-evolving tech landscape.
+            </h4>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p>-->
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Java</span><br />Basic of Java</li>
+                <li><span>HTML</span><br />Intermediate learning for HTML</li>
+                <li><span>CSS</span><br />Basic of CSS</li>
+                <li><span>Java Script</span><br />Basic of JS</li>
+                <li><span>My SQL</span><br />Basic of My SQL</li>
+              </ul>
+            </div>
+            <!--<div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2000</span><br>Desingin thre ui\ux</li>
+                            <li><span>30000</span><br>Desingin thre ui\ux</li>
+                            <li><span>4000</span><br>Desingin thre ui\ux</li>
+                        </ul>
+                    </div>-->
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>B.tech</span><br />Technocrats Institute of Technology,
+                  Bhopal <br />2020-2024
+                </li>
+                <li>
+                  <span>Intermediate</span><br />Anupama Hr. Sec. School, Satna
+                  <br />2019-2020
+                </li>
+                <li>
+                  <span>High School</span><br />Anupama Hr. Sec. School, Satna
+                  <br />2017-2018
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------Services--------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Certificate</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Meta</h2>
+            <p>Front-End Developer.</p>
+            <a
+              href="https://drive.google.com/file/d/19VoVnuiBoSdFg1JNI7bVPaATYEC0ECFf/view?usp=share_link"
+              >Certificate</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Accenture</h2>
+            <p>Accenture Developer Virtual Experience Program.</p>
+            <a
+              href="https://drive.google.com/file/d/1jchrzwT0lgvtTDSVc_x6hQoifXIARnF-/view?usp=drivesdk"
+              >Certificate</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-squarespace"></i>
+            <h2>UI Path</h2>
+            <p>Automation Business Analysis - Concepts and Principles.</p>
+            <a
+              href="https://drive.google.com/file/d/1S5qoOBkW-x2TKfXXSfIsYJf1crJI9RJw/view?usp=drivesdk"
+              >Certificate</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------portfolio-------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/work-1.png" />
+            <div class="layer">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                Front-end developer skillfully designs an elegant personal
+                portfolio website with HTML, CSS, and JavaScript.
+              </p>
+              <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work-2.png" />
+            <div class="layer">
+              <h3>X-ray Machine</h3>
+              <p>
+                Front-end developer creating X-ray machine interface with HTML,
+                CSS, JavaScript.
+              </p>
+              <a href="https://pranjalsingh4.github.io/X-ray-Scanner/"
+                ><i class="fa-solid fa-square-up-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work-3.png" />
+            <div class="layer">
+              <h3>Hand Scanning Animation</h3>
+              <p>
+                Front-end developer crafting hand scanning animation with the
+                help of HTML, CSS, JavaScript.
+              </p>
+              <a href="https://pranjalsingh4.github.io/Hand-Scanning/"
+                ><i class="fa-solid fa-square-up-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!------------contact--------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>pranjalsinghp636@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 9691274115</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/pranjal.jbsingh_/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/pranjal-singh-403654213/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.facebook.com/profile.php?id=100025663541692"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="https://github.com/PranjalSingh4"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </div>
+            <a href="image/my Cv.pdf" download class="btn btn2">Download Cv</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzoiaVxnNw5ICUfZL902Lrk2plPaXT5tvyuULmjS2OgGiknrE1nH8NfR6r13J8IshepGw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Designer", "Java", "Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
